@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Registration Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="title">Help Us Serve You!</div>
+      <form action="https://formsubmit.co/el/paxale" method="POST">
+        <div class="user-details">
+          <div class="input-box">
+            <span class="details">Please state your full name :</span>
+            <input
+              type="text"
+              name="Name"
+              placeholder="Enter your name"
+              required
+            />
+          </div>
+
+          <div class="input-box">
+            <span class="details">Please state your preferred colours :</span>
+            <input
+              type="text"
+              name="colours"
+              placeholder="Enter your colours"
+              required
+            />
+          </div>
+
+          <div class="input-box">
+            <span class="details"
+              >What is your style? Are you a minimalist (simple, classy,
+              straightforward) Or creative (You want unique additions), do you
+              like a lot of additions such as feathers, trimmings, etc. :</span
+            >
+            <input
+              type="text"
+              name="style"
+              placeholder="Enter your style"
+              required
+            />
+          </div>
+          <div class="input-box">
+            <span class="details">Please state the date of your event :</span>
+            <span>
+              <label for="day">Day:</label>
+              <select name="Days" id="day"></select>
+            </span>
+            <span>
+              <label for="month">Month:</label>
+              <select name="month" id="month"></select>
+            </span>
+            <span>
+              <label for="year">Year:</label>
+              <select name="year" id="year"></select>
+            </span>
+          </div>
+          <div class="input-box">
+            <span class="details"
+              >Please what is your current UK size (eg size 10,12,14) :</span
+            >
+            <input
+              type="text"
+              name="size"
+              placeholder="Enter your size"
+              required
+            />
+          </div>
+          <div class="input-box">
+            <span class="details"
+              >Please state how many outfits you would like to have made :</span
+            >
+            <input
+              type="text"
+              name="number of outfits"
+              placeholder="Enter number"
+              required
+            />
+          </div>
+        </div>
+        <div class="button">
+          <input type="submit" value="Submit" />
+        </div>
+      </form>
+    </div>
+
+    <!-- Javascript!!!!! Do not touch!!! -->
+    <script src="script.js"></script>
+  </body>
+</html>
